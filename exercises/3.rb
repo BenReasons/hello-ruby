@@ -15,3 +15,10 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+list_1 = ["milk", "eggs", "bacon"]
+list_2 = ["beer","cookies","apples", "bacon"]
+list_total = list_1 + list_2
+sorted_list = list_total.sort
+unique_list = sorted_list.uniq
+
+puts unique_list
